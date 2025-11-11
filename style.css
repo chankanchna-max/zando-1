@@ -72,3 +72,18 @@ ul {
   background-color: #dbdada;
   cursor: pointer;
 }
+.nav-right ul {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: end;
+  height: 100%;
+}
+.nav-right ul li {
+  text-transform: uppercase;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-weight: bold;
+}
